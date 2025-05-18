@@ -5,10 +5,10 @@ To write a python program to find the Eigenvalues and Eigen Vectors
 1. 	Hardware – PCs
 2. 	Anaconda – Python 3.7 Installation / Moodle-Code Runner
 ## Algorithm: 
-### Step 1: Provide the square matrix ( A ).
-### Step 2: Solve ( \det(A - \lambda I) = 0 ) to determine eigenvalues ( \lambda ).
-### Step 3: Use each ( \lambda ) in ( (A - \lambda I)x = 0 ) to calculate eigenvectors ( x ).
-### Step 4: Confirm ( Ax = \lambda x ) to verify your results.
+### Step1 : Import the numpy module to use the built-in functions for calculation
+### Step 2: Prepare the lists from the matrix and assign in np.array()
+### Step 3: Using the np.linalg.eig(), we get two results (first is eigenvalue and second is eigenvector) of the given matrix.
+### Step 4: End the program.
 
 ## Program:
 ```
